@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 660
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 253
+  controlID: 66
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 340
     height: 660
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 219
     height: 389
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 710
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 940
     height: 660
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 261
+  controlID: 67
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 940
     height: 389
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 191
+  controlID: 68
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,34 +338,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Imported Assets/Decrepit Dungeon LITE/Prefabs/Stairs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Imported Assets/Decrepit Dungeon LITE/Prefabs/Stairs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\25043\Desktop\UCL\Virtual Enviroments\Dungeon\Dungeon
+  m_LastProjectPath: C:\Users\25043\Desktop\UCL\Virtual Enviroments\Dungeon\VE_Project\Dungeon
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 218}
-    m_SelectedIDs: 9a490000
-    m_LastClickedID: 18842
-    m_ExpandedIDs: 0000000022490000244900002649000096490000984900009e490000364b00003a4b00003e4b0000424b0000464b0000946a0000966a00003c6c0000c26c000072710000b4200100182101003c75010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 139}
+    m_SelectedIDs: 5e530000
+    m_LastClickedID: 21342
+    m_ExpandedIDs: 00000000da500000dc500000de500000e0500000e2500000e4500000e6500000e8500000ea500000ec500000ee500000f0500000f2500000f4500000f6500000f8500000fa500000fe50000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Avatars
-      m_OriginalName: Avatars
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27252
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000224900002449000026490000
+    m_ExpandedIDs: 00000000da500000dc500000de500000e0500000e2500000e4500000e6500000e8500000ea500000ec500000ee500000f0500000f2500000f4500000f6500000f8500000fa500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -472,7 +472,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 830
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -502,23 +502,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 68590200
-      m_LastClickedID: 153960
-      m_ExpandedIDs: ba03faff741dfaffb233faffea4ffaff8852faffcc5ffaff0a61faffca62faff7866faff4870faff8271faff6287faffe0a9faffb8affaffb6c3faffbac3faff06c5faff0cc5faff64c5faff6ac5faff72ecfaffdefbfaffbe0ffbffc40ffbffc80ffbffdc0ffbffe00ffbffce15fbffd415fbffea38fbff345afbff465bfbff345cfbffc071fbff3e87fbff4087fbff768dfbfffea2fbffd8a6fbffeaacfbff2eadfbfff2ccfbff2803fcffea08fcffaa11fcff9212fcff6a13fcff1817fcffea1efcffe820fcff2222fcff8c43fcff7267fcff6ab7fcfff202fdff267efdffaccffdffcad5fdff2edefdffeedffdff9ce3fdff6eebfdff6cedfdffa6eefdff9e80feff4a13ffff6819ffff3a27ffffca30ffff0a31ffff4432ffff3e42ffffb25effff2285ffffa085ffff4a89ffffd889ffff3e8affff3e8dffff48a8ffff04a9ffff0aa9ffff0ea9ffff22a9ffff26a9ffffcabeffff1cfbffffbe770000d47700001c78000098780000027900008e790000f07900001e7a0000307b00009e7b0000c47b0000f87b0000547c0000607c0000a27c0000dc7c0000ec7c0000f67c0000248300003a830000b8ed000022ee0000aeee00003eef000050f00000e4f0000018f1000074f10000c2f10000fcf100000cf2000016f20000cac7010036c801009ad2010008d40100bad50100bedf010028e00100bae001004ae101005ce20100f6e201002ae3010086e30100d4e301000ee401001ee4010028e40100
+      m_SelectedIDs: 46450000
+      m_LastClickedID: 17734
+      m_ExpandedIDs: a8e9ffff54f0ffff5efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Demo Scene
-        m_OriginalName: Demo Scene
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -370522
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 18.964613, y: -5.4083014, z: 21.65107}
+    m_Target: {x: -12.976837, y: -9.326535, z: 19.585087}
     speed: 2
-    m_Value: {x: 18.964613, y: -5.4083014, z: 21.65107}
+    m_Value: {x: -12.976837, y: -9.326535, z: 19.585087}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.054216146, y: -0.7785043, z: 0.06790117, w: 0.6215986}
+    m_Target: {x: 0.07051779, y: -0.75936544, z: 0.0834845, w: 0.6414217}
     speed: 2
-    m_Value: {x: 0.054216042, y: -0.7785028, z: 0.067901045, w: 0.6215974}
+    m_Value: {x: 0.07051779, y: -0.75936544, z: 0.0834845, w: 0.6414217}
   m_Size:
-    m_Target: 10.550051
+    m_Target: 20.732546
     speed: 2
-    m_Value: 10.550051
+    m_Value: 20.732546
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -704,7 +704,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
