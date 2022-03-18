@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Demo_Scene.unity
+- path: /Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project_old/Dungeon/Assets/Scenes/Demo_Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
