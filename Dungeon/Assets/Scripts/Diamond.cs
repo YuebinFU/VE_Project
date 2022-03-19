@@ -30,7 +30,7 @@ public class Diamond : MonoBehaviour, IGraspable
       if (grasped != null)
       {
           transform.position = grasped.transform.position;
-          //transform.rotation = grasped.transform.rotation;
+          transform.rotation = grasped.transform.rotation;
       }
     }
 }

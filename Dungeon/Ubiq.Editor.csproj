@@ -265,49 +265,49 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="System.Threading.Tasks.Extensions">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Plugins/System.Threading.Tasks.Extensions.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Plugins/System.Threading.Tasks.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="System.Buffers">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Plugins/System.Buffers.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Plugins/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Plugins/System.Memory.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Plugins/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/websocket-sharp.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Extensions.Logging.Abstractions">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="SIPSorceryMedia.Abstractions">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/SIPSorceryMedia.Abstractions.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/SIPSorceryMedia.Abstractions.dll</HintPath>
  </Reference>
  <Reference Include="BouncyCastle.Crypto">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/BouncyCastle.Crypto.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/BouncyCastle.Crypto.dll</HintPath>
  </Reference>
  <Reference Include="DnsClient">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/DnsClient.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/DnsClient.dll</HintPath>
  </Reference>
  <Reference Include="SIPSorcery">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/SIPSorcery.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Packages/ubiq-0.2.0-alpha.4/Runtime/Voip/External/SipSorcery/SIPSorcery.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -667,16 +667,16 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/test2/VE_Project/Dungeon/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/Users/arthurcheung/Desktop/UCLCGVI/VE/coursework2/VE_Project/Dungeon/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
