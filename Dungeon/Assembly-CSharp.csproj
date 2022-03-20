@@ -120,6 +120,16 @@
     <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Single\Spawning\PrefabsMenu.cs" />
     <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Single\Spawning\SpawnPrefabControl.cs" />
     <Compile Include="Assets\Scripts\Diamond.cs" />
+    <Compile Include="Assets\Scripts\Player_collision.cs" />
+    <Compile Include="Assets\Scripts\Traps_collision.cs" />
+    <Compile Include="Assets\Scripts\destination.cs" />
+    <Compile Include="Assets\Scripts\opendoor_down.cs" />
+    <Compile Include="Assets\Scripts\opendoor_up.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\CharacterControllerThirdPerson.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\SmoothFollow.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\UserControlThirdPerson.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Scripts\Waypoint.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Scripts\WaypointController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Audio\License.txt" />
@@ -127,6 +137,7 @@
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Intro\Materials\FadeLeft.shader" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Environments\Apartment\Sources.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Avatars\Floating\LICENSE.txt" />
+    <None Include="Assets\TurnTheGameOn\Arrow WayPointer\Read Me.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Environments\Nature Pack\LICENSE.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Avatars\Kenney\Changelog.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Avatars\Kenney\LICENSE.txt" />

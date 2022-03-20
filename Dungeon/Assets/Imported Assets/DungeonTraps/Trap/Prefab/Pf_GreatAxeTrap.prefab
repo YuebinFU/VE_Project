@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3332088}
   - component: {fileID: 2332088}
   - component: {fileID: 179974589455325509}
+  - component: {fileID: 2362914118340245015}
   m_Layer: 0
   m_Name: GreatAxe
   m_TagString: Untagged
@@ -91,8 +92,20 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.6460695, y: 1.4903498, z: 2.5463047}
-  m_Center: {x: 0.5637889, y: -3.9469113, z: 1.322864}
+  m_Size: {x: 3.803249, y: 0.56954384, z: 0.9815502}
+  m_Center: {x: 0.1728704, y: -4.4073143, z: 0.9299445}
+--- !u!114 &2362914118340245015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f99a43840074d4ca2881ecb9e00267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &132088
 GameObject:
   m_ObjectHideFlags: 0
