@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Imported Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Imported Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
     <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Applications\Boids\BoidState.cs" />
     <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Applications\Boids\Boids.cs" />
     <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Applications\Boids\BoidsManager.cs" />
@@ -124,7 +125,7 @@
     <Compile Include="Assets\Scripts\Dragon.cs" />
     <Compile Include="Assets\Scripts\Player_collision.cs" />
     <Compile Include="Assets\Scripts\Traps_collision.cs" />
-    <Compile Include="Assets\Scripts\bridge.cs" />
+    <Compile Include="Assets\Scripts\board.cs" />
     <Compile Include="Assets\Scripts\destination.cs" />
     <Compile Include="Assets\Scripts\opendoor_down.cs" />
     <Compile Include="Assets\Scripts\opendoor_up.cs" />
@@ -136,17 +137,22 @@
     <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Scripts\WaypointController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Imported Assets\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Audio\License.txt" />
     <None Include="Assets\Imported Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
+    <None Include="Assets\Imported Assets\Lava_Flowing_Shader\ReadMe.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Intro\Materials\FadeLeft.shader" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Environments\Apartment\Sources.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Avatars\Floating\LICENSE.txt" />
+    <None Include="Assets\Imported Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
     <None Include="Assets\TurnTheGameOn\Arrow WayPointer\Read Me.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Environments\Nature Pack\LICENSE.txt" />
+    <None Include="Assets\Imported Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Avatars\Kenney\Changelog.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Avatars\Kenney\LICENSE.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Readme.txt" />
     <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Props\Firework\LICENSE.txt" />
+    <None Include="Assets\Imported Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

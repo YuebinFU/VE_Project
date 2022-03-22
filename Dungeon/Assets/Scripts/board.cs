@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Ubiq.XR;
 using UnityEngine;
 
-public class bridge : MonoBehaviour, IGraspable
+public class board : MonoBehaviour, IGraspable
 {
     public Hand grasped;
     // Start is called before the first frame update
