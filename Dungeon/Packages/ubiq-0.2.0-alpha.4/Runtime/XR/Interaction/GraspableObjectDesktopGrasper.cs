@@ -45,7 +45,7 @@ namespace Ubiq.XR
                 new Ray(new Vector3(position.x, 0f, position.z), Vector3.up),
                 new Ray(mainCamera.transform.position, mainCamera.transform.forward))
                 .start;
-            return up.y;
+            return up.y - transform.parent.position.y;
         }
 
         private void UpdateGrasp()

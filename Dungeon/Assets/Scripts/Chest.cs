@@ -20,6 +20,7 @@ public class Chest : MonoBehaviour
         {
             if (other.gameObject.GetComponent<Diamond>().isCollected == false)
             {
+                gameObject.GetComponent<AudioSource>().Play();
                 Debug.Log("Add 1 diamond");
                 diamondCount++;
                 other.gameObject.GetComponent<Diamond>().isCollected = true;

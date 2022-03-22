@@ -25,9 +25,12 @@ public class Traps_collision : MonoBehaviour
         // Debug.Log(other.gameObject.GetComponent<Diamond>().grasped);
 
         GameObject player = other.collider.gameObject;
-        Debug.Log(player.name);
-        player.transform.position = new Vector3(-23, 91, 19);
-        player.transform.rotation = Quaternion.Euler(0.0f, 180.0f, 0.0f);
+           Debug.Log(player.name);
+        if (player.name == "Player")
+        {
+            player.transform.position = new Vector3(-23, 91, 19);
+            player.transform.rotation = Quaternion.Euler(0.0f, 180.0f, 0.0f);
+        }
         //Rigidbody_of_player.constraints = RigidbodyConstraints.FreezeAll;
     }
     // Update is called once per frame

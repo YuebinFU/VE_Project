@@ -17,7 +17,11 @@ public class Diamond : MonoBehaviour, IGraspable, INetworkComponent, INetworkObj
     void IGraspable.Grasp(Hand controller)
     {
         Debug.Log("Clicked");
-        grasped = controller;
+        GameObject player = GameObject.Find("Player");
+        float dis = Vector3.Distance(player.transform.position, transform.position);
+        Debug.Log("diamond distance is " + dis);
+        if (dis<5.0)
+            grasped = controller;
     }
 
     void INetworkComponent.ProcessMessage(ReferenceCountedSceneGraphMessage message)

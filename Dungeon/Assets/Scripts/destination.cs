@@ -6,6 +6,7 @@ public class destination : MonoBehaviour
 {
     public AudioSource victory;
     public Rigidbody Rigidbody_of_player;
+    Vector3 position_player;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +17,12 @@ public class destination : MonoBehaviour
     {
         gameObject.GetComponent<AudioSource>().Play();
         Debug.Log(other.gameObject.name);
-        Rigidbody_of_player = other.gameObject.GetComponent<Rigidbody>();
-        Rigidbody_of_player.constraints = RigidbodyConstraints.FreezeAll;
+        position_player = other.gameObject.transform.position;
+    }
 
+    void OnCollisionStay(Collision other)
+    {
+        other.gameObject.transform.position = position_player;
     }
     void Show()
     {
