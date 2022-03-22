@@ -11,6 +11,19 @@ public class Traps_collision : MonoBehaviour
     }
     void OnCollisionEnter(Collision other)
     {
+        // diamonds = GameObject.Find("Inner Environment/Diamonds");
+        // foreach (Ｔransform child in diamonds.transform)
+        // {
+        //     child.GetComponent<Diamond>().grasped = null;
+        // }
+
+        // if (other.gameObject.GetComponent<Diamond>().grasped != null)
+        // {
+        //     other.gameObject.GetComponent<Diamond>().grasped = null;
+        // }
+
+        // Debug.Log(other.gameObject.GetComponent<Diamond>().grasped);
+
         GameObject player = other.collider.gameObject;
         Debug.Log(player.name);
         player.transform.position = new Vector3(-23, 91, 19);
@@ -20,6 +33,6 @@ public class Traps_collision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

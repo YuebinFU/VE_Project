@@ -121,6 +121,7 @@
      <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Single\Rooms\Scripts\RoomClientJoinHelper.cs" />
      <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Single\Spawning\PrefabsMenu.cs" />
      <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Single\Spawning\SpawnPrefabControl.cs" />
+     <Compile Include="Assets\Scripts\Chest.cs" />
      <Compile Include="Assets\Scripts\Diamond.cs" />
      <Compile Include="Assets\Scripts\Player_collision.cs" />
      <Compile Include="Assets\Scripts\Traps_collision.cs" />

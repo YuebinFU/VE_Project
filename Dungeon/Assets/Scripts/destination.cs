@@ -12,7 +12,6 @@ public class destination : MonoBehaviour
         Hide();
     }
 
-
     void OnCollisionEnter(Collision other)
     {
         gameObject.GetComponent<AudioSource>().Play();
@@ -26,7 +25,7 @@ public class destination : MonoBehaviour
         gameObject.GetComponent<Renderer>().enabled = true;
     }
 
-        void Hide()
+    void Hide()
     {
         gameObject.GetComponent<Renderer>().enabled = false;
     }
