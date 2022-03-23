@@ -63,6 +63,11 @@
      <Compile Include="Assets\Imported Assets\Button\Scripts\AN_PlugScript.cs" />
      <Compile Include="Assets\Imported Assets\Diamond\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Imported Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
+     <Compile Include="Assets\Imported Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\CharacterControllerThirdPerson.cs" />
+     <Compile Include="Assets\Imported Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\SmoothFollow.cs" />
+     <Compile Include="Assets\Imported Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\UserControlThirdPerson.cs" />
+     <Compile Include="Assets\Imported Assets\TurnTheGameOn\Arrow WayPointer\Scripts\Waypoint.cs" />
+     <Compile Include="Assets\Imported Assets\TurnTheGameOn\Arrow WayPointer\Scripts\WaypointController.cs" />
      <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Applications\Boids\BoidState.cs" />
      <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Applications\Boids\Boids.cs" />
      <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Applications\Boids\BoidsManager.cs" />
@@ -148,11 +153,6 @@
      <Compile Include="Assets\Scripts\opendoor_down.cs" />
      <Compile Include="Assets\Scripts\opendoor_up.cs" />
      <Compile Include="Assets\Scripts\sword.cs" />
-     <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\CharacterControllerThirdPerson.cs" />
-     <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\SmoothFollow.cs" />
-     <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\DemoContent\CharacterController\Scripts\UserControlThirdPerson.cs" />
-     <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Scripts\Waypoint.cs" />
-     <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Scripts\WaypointController.cs" />
      <None Include="Assets\Imported Assets\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
      <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Audio\License.txt" />
      <None Include="Assets\Imported Assets\Diamond\Gems Ultimate Pack\READ ME.txt" />
@@ -161,7 +161,7 @@
      <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Environments\Apartment\Sources.txt" />
      <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Avatars\Floating\LICENSE.txt" />
      <None Include="Assets\Imported Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
-     <None Include="Assets\TurnTheGameOn\Arrow WayPointer\Read Me.txt" />
+     <None Include="Assets\Imported Assets\TurnTheGameOn\Arrow WayPointer\Read Me.txt" />
      <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Environments\Nature Pack\LICENSE.txt" />
      <None Include="Assets\Imported Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
      <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Avatars\Kenney\Changelog.txt" />

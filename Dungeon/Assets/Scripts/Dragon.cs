@@ -14,7 +14,7 @@ public class Dragon : MonoBehaviour
         GameObject sword = other.collider.gameObject;
         if (sword.name == "Sword")
         {
-            gameObject.GetComponent<AudioSource>().Play();
+            //gameObject.GetComponent<AudioSource>().Play();
             this.gameObject.SetActive(false);
         }
     }
