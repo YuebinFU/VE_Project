@@ -36,6 +36,8 @@ namespace Ubiq.Samples
         private void RoomClient_OnJoinedRoom(IRoom room)
         {
             mainPanel.SwitchPanelToDefault();
+            GameObject player = GameObject.Find("Player");
+            player.transform.position = new Vector3(1.208f, 88.5f, 35.82f);
         }
 
         private void RoomClient_OnJoinRejected(Rejection rejection)

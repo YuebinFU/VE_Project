@@ -55,13 +55,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Imported Assets\AN Interactive Physical Door Pack\Scripts\AN_Button.cs" />
-     <Compile Include="Assets\Imported Assets\AN Interactive Physical Door Pack\Scripts\AN_DoorKey.cs" />
-     <Compile Include="Assets\Imported Assets\AN Interactive Physical Door Pack\Scripts\AN_DoorScript.cs" />
-     <Compile Include="Assets\Imported Assets\AN Interactive Physical Door Pack\Scripts\AN_HeroController.cs" />
-     <Compile Include="Assets\Imported Assets\AN Interactive Physical Door Pack\Scripts\AN_HeroInteractive.cs" />
-     <Compile Include="Assets\Imported Assets\AN Interactive Physical Door Pack\Scripts\AN_PlugScript.cs" />
-     <Compile Include="Assets\Imported Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+     <Compile Include="Assets\Imported Assets\Button\Scripts\AN_Button.cs" />
+     <Compile Include="Assets\Imported Assets\Button\Scripts\AN_DoorKey.cs" />
+     <Compile Include="Assets\Imported Assets\Button\Scripts\AN_DoorScript.cs" />
+     <Compile Include="Assets\Imported Assets\Button\Scripts\AN_HeroController.cs" />
+     <Compile Include="Assets\Imported Assets\Button\Scripts\AN_HeroInteractive.cs" />
+     <Compile Include="Assets\Imported Assets\Button\Scripts\AN_PlugScript.cs" />
+     <Compile Include="Assets\Imported Assets\Diamond\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Imported Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
      <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Applications\Boids\BoidState.cs" />
      <Compile Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Applications\Boids\Boids.cs" />
@@ -145,7 +145,7 @@
      <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Scripts\WaypointController.cs" />
      <None Include="Assets\Imported Assets\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
      <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Audio\License.txt" />
-     <None Include="Assets\Imported Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
+     <None Include="Assets\Imported Assets\Diamond\Gems Ultimate Pack\READ ME.txt" />
      <None Include="Assets\Imported Assets\Lava_Flowing_Shader\ReadMe.txt" />
      <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Intro\Materials\FadeLeft.shader" />
      <None Include="Assets\Samples\Ubiq\0.2.0-alpha.4\Samples\Assets\Environments\Apartment\Sources.txt" />

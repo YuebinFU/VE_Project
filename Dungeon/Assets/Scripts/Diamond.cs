@@ -39,6 +39,7 @@ public class Diamond : MonoBehaviour, IGraspable, INetworkComponent, INetworkObj
     void Start()
     {
         context = NetworkScene.Register(this);
+        //Debug.Log("context： " + context);
     }
 
     struct Message
