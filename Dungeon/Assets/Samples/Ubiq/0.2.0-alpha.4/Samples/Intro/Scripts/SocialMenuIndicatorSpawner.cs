@@ -1,16 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Ubiq.Messaging;
+using Ubiq.Rooms;
+using Ubiq.XR;
 using UnityEngine;
 using UnityEngine.Events;
-using Ubiq.Rooms;
-using Ubiq.Messaging;
-using Ubiq.XR;
 
-namespace Ubiq.Samples
-{
-    public class SocialMenuIndicatorSpawner : MonoBehaviour
-    {
+namespace Ubiq.Samples {
+    public class SocialMenuIndicatorSpawner : MonoBehaviour {
         public SocialMenu socialMenu;
         public GameObject indicatorTemplate;
 
@@ -18,37 +16,30 @@ namespace Ubiq.Samples
         private NetworkScene networkScene;
         private string roomUUID;
 
-        private void Start()
-        {
-            if (socialMenu && socialMenu.roomClient && socialMenu.networkScene)
-            {
+        private void Start () {
+            if (socialMenu && socialMenu.roomClient && socialMenu.networkScene) {
                 roomClient = socialMenu.roomClient;
                 networkScene = socialMenu.networkScene;
-                roomClient.OnJoinedRoom.AddListener(RoomClient_OnJoinedRoom);
+                roomClient.OnJoinedRoom.AddListener (RoomClient_OnJoinedRoom);
             }
         }
 
-        private void OnDestroy()
-        {
-            if (roomClient)
-            {
-                roomClient.OnJoinedRoom.RemoveListener(RoomClient_OnJoinedRoom);
+        private void OnDestroy () {
+            if (roomClient) {
+                roomClient.OnJoinedRoom.RemoveListener (RoomClient_OnJoinedRoom);
             }
         }
 
-        private void RoomClient_OnJoinedRoom(IRoom room)
-        {
+        private void RoomClient_OnJoinedRoom (IRoom room) {
             if (roomClient && networkScene && roomClient.Room != null &&
-                roomClient.Room.UUID != roomUUID )
-            {
+                roomClient.Room.UUID != roomUUID) {
                 roomUUID = roomClient.Room.UUID;
 
-                var spawner = NetworkSpawner.FindNetworkSpawner(networkScene);
-                var indicator = spawner.SpawnPersistent(indicatorTemplate);
-                var bindable = indicator.GetComponent<ISocialMenuBindable>();
-                if (bindable != null)
-                {
-                    bindable.Bind(socialMenu);
+                var spawner = NetworkSpawner.FindNetworkSpawner (networkScene);
+                var indicator = spawner.SpawnPersistent (indicatorTemplate);
+                var bindable = indicator.GetComponent<ISocialMenuBindable> ();
+                if (bindable != null) {
+                    bindable.Bind (socialMenu);
                 }
             }
         }
