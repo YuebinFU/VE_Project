@@ -30,6 +30,7 @@ public class Chest : MonoBehaviour
         {
             Debug.Log("4 diamonds! Victory!");
             GameObject victory_door = GameObject.Find("Inner Environment/Doors/Victory_Door");
+            victory_door.GetComponent<AudioSource>().Play();
             victory_door.transform.localEulerAngles = new Vector3(0.0f, -120.0f, 0.0f);
         }
     }

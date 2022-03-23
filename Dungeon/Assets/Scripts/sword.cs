@@ -19,8 +19,10 @@ public class sword : MonoBehaviour, IGraspable
         GameObject player = GameObject.Find("Player");
         float dis = Vector3.Distance(player.transform.position, transform.position);
         Debug.Log("sword distance is " + dis);
-        if (dis < 5.0)
+        if (dis < 5.0){
+            gameObject.GetComponent<AudioSource>().Play();
             grasped = controller;
+        }
     }
     void IGraspable.Release(Hand controller)
     {

@@ -131,7 +131,17 @@
      <Compile Include="Assets\Scripts\Chest.cs" />
      <Compile Include="Assets\Scripts\Diamond.cs" />
      <Compile Include="Assets\Scripts\Dragon.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\EightButtonDown.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\FiveButtonDown.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\FourButtonDown.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\NineButtonDown.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\OneButtonDown.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\SevenButtonDown.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\SixButtonDown.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\ThreeButtonDown.cs" />
+     <Compile Include="Assets\Scripts\NumerpadDown\TwoButtonDown.cs" />
      <Compile Include="Assets\Scripts\Player_collision.cs" />
+     <Compile Include="Assets\Scripts\StartDoorOpen.cs" />
      <Compile Include="Assets\Scripts\Traps_collision.cs" />
      <Compile Include="Assets\Scripts\board.cs" />
      <Compile Include="Assets\Scripts\destination.cs" />

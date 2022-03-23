@@ -21,6 +21,8 @@ namespace Ubiq.Samples
             
             GameObject player = GameObject.Find("Player");
             player.transform.position = new Vector3(1.208f, 91.5f, 35.82f);
+            player.GetComponent<StartDoorOpen>().playerType = 1;
+           // Debug.Log(StartDoorOpen.playerType);
             //player.transform.position = new Vector3(1.253f, 103.0f, 10.5f);
         }
     }

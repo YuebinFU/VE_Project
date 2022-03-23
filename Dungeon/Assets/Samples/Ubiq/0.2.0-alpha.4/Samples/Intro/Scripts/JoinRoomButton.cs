@@ -38,6 +38,8 @@ namespace Ubiq.Samples
             mainPanel.SwitchPanelToDefault();
             GameObject player = GameObject.Find("Player");
             player.transform.position = new Vector3(1.208f, 88.5f, 35.82f);
+            player.GetComponent<StartDoorOpen>().playerType = 2;
+            //Debug.Log(StartDoorOpen.playerType);
         }
 
         private void RoomClient_OnJoinRejected(Rejection rejection)
