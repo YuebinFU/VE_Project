@@ -4,6 +4,6 @@ It is a group coursework of Virtual Environments. This is a two-player game wher
 ## Development environment
 Unity 2019.4.34f1
 ## Scene preview
-![Image text](https://github.com/YuebinFU/VE_Project/blob/main/Images/dragon.jpg)
 ![Image text](https://github.com/YuebinFU/VE_Project/blob/main/Images/trigger.jpg)
 ![Image text](https://github.com/YuebinFU/VE_Project/blob/main/Images/chest.jpg)
+![Image text](https://github.com/YuebinFU/VE_Project/blob/main/Images/dragon.jpg)
